@@ -1,0 +1,19 @@
+{
+  "name": "multi_service_server",
+  "version": "1.0.0",
+  "description": " a multi-service blog platform using Docker containers and AWS. The project aims to evaluate your skills in containerization, service orchestration, backend development, and cloud deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahulsingh1939/MSA_Server.git"
+  },
+  "author": "rahul_singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahulsingh1939/MSA_Server/issues"
+  },
+  "homepage": "https://github.com/Rahulsingh1939/MSA_Server#readme"
+}
