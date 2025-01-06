@@ -4,7 +4,9 @@
   "description": " a multi-service blog platform using Docker containers and AWS. The project aims to evaluate your skills in containerization, service orchestration, backend development, and cloud deployment.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "dev":"nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/Rahulsingh1939/MSA_Server/issues"
   },
-  "homepage": "https://github.com/Rahulsingh1939/MSA_Server#readme"
+  "homepage": "https://github.com/Rahulsingh1939/MSA_Server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "slugify": "^1.6.6"
+  }
 }
